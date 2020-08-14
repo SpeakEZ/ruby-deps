@@ -19,7 +19,6 @@ gem 'spinjs-rails', '~> 1.4' # Spinner
 gem 'jquery-ui-rails', '~> 4.2.1'
 gem 'jquery-rails', '= 3.1.1'
 
-# http://github.com/SpeakEZ/touchpunch-rails
 gem 'touchpunch-rails', '1.0.1'
 
 # Gravatar gems
@@ -81,7 +80,7 @@ gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 gem 'nokogiri', '~> 1.10.8'
 gem 'rubyzip', '~> 1.1.7'
 gem 'omg_validator', '~> 1.0.0'      # Form validations
-gem 'carmen-rails', :github => 'SpeakEZ/carmen-rails', :ref => '076dd25' # State country codes
+gem 'carmen-rails', '~> 1.0.1' # State country codes
 gem 'will_paginate', '~> 3.0.7'
 gem 'read_only_filter', '~> 1.0.0'
 gem 'bootstrap-will_paginate', '0.0.10'
@@ -91,7 +90,7 @@ gem 'acts_as_list', '~> 0.4.0'
 gem 'mil_friendly_id',     '4.0.9.9'  # has special character support
 gem 'mil_vestal_versions', '1.2.6'    # whitelist support for versions
 gem 'holidays', '~> 2.2.0'            # Determines holidays for common US holidays
-gem 'mailboxer', :github => 'SpeakEZ/mil-mailboxer'
+gem 'mailboxer', '~> 0.10.3'
 gem 'html-pipeline', '~> 2.6.0'
 gem 'sanitize', '~> 3.1.2'
 gem 'github-markdown', '~> 0.6.9'
@@ -102,9 +101,7 @@ gem 'chronic', '~> 0.10.2' # A natural language date parser
 #gem 'ancestry' # jason put this in for org heirarchy - was buggy
 gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
 gem 'bootstrap-multiselect-rails'
-# Fork rack 1.4.7 to add SameSite to cookies
-gem 'rack', :github => 'SpeakEZ/rack', :branch => 'rack-1.4'
-#gem 'rack', `~> 1.4.7
+gem 'rack', '~> 1.4.7'
 
 # Performance
 gem 'unicorn-worker-killer', '~> 0.4.4'
