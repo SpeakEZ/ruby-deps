@@ -139,12 +139,6 @@ group :development, :test do
   gem 'guard-spork', '~> 2.1.0'
   gem 'guard-jasmine', '~> 1.19.2'
 
-  # Code style gems
-  gem 'roodi', '~> 4.1.1'
-  gem 'rubocop', '~> 0.39.0'
-  gem 'rails_best_practices', '~> 1.17.0'
-  gem 'require_all', '~> 1.5.0' # Pinned for Rails 3?
-
   # Test notifications gems
   gem 'ruby_gntp'
   gem 'rb-fsevent', '~> 0.9.1'
