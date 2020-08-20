@@ -78,7 +78,7 @@ gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
 # Basic required gems
 gem 'nokogiri', '~> 1.10.8'
-gem 'rubyzip', '~> 1.1.7'
+gem 'rubyzip', '~> 1.2.4'
 gem 'omg_validator', '~> 1.0.0'      # Form validations
 gem 'carmen-rails', '~> 1.0.1' # State country codes
 gem 'will_paginate', '~> 3.0.7'
