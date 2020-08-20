@@ -138,6 +138,7 @@ group :development, :test do
   gem 'guard-coffeescript', '~> 2.0.1'
   gem 'guard-spork', '~> 2.1.0'
   gem 'guard-jasmine', '~> 1.19.2'
+  gem 'childprocess', '~> 3.0.0'
 
   # Test notifications gems
   gem 'ruby_gntp'
