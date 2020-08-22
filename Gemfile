@@ -26,8 +26,8 @@ gem 'gravatar_image_tag', '~> 0.1.0'
 gem 'gravatar-ultimate'
 
 # Unicorn rails
-gem 'unicorn', '~> 5.0.1'
-gem 'kgio', '~> 2.10.0'
+gem 'unicorn', '~> 5.4.1'
+gem 'kgio', '~> 2.11.3'
 
 # Error monitoring PRODUCTION
 gem 'honeybadger', '~> 1.16.7'
@@ -60,19 +60,19 @@ group :staging, :production do
 end
 
 # Database
-gem 'pg', '~> 0.19.0'
+gem 'pg', '~> 0.21.0'
 #gem 'mysql2' # This is only for import from zeus
 
 # Background jobs
-gem 'resque', '~> 1.26.0'
+gem 'resque', '~> 1.27.4'
 gem 'resque-status', '~> 0.5.0'
 gem 'resque-queue-priority', '~> 0.6.2'
-gem 'redis', '~> 3.3.0'
+gem 'redis', '~> 3.3.5'
 gem 'redis-namespace', '~> 1.6.0'
-gem 'resque-scheduler', '~> 3.1.0', :require => 'resque-scheduler'
+gem 'resque-scheduler', '~> 4.3.1', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 4.8.0'
+gem 'newrelic_rpm', '~> 5.7.0.350'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
@@ -112,7 +112,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'coffee-script', '~> 2.4.1'
   gem 'coffee-script-source', '~> 1.12.2'
-  gem 'uglifier',     '~> 2.6.1'
+  gem 'uglifier',     '~> 2.7.2'
   gem 'compass-rails', '~> 1.1.7'
   gem 'bootstrap-sass', '~> 2.0.0'
   gem 'jquery-datatables-rails', '~> 2.2.3'
