@@ -132,6 +132,8 @@ end
 group :development, :test do
   # Guard automated test gems `guard`
   gem 'guard', '~> 2.10.5'
+  gem 'pry', '~> 0.12.2'
+  gem 'guard-rails', '~> 0.6.1'
   gem 'guard-rspec', '~> 4.6.5'
   gem 'guard-bundler', '~> 2.1.0'
   gem 'guard-cucumber', '~> 2.1.2'
