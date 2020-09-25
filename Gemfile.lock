@@ -503,6 +503,7 @@ DEPENDENCIES
   coffee-script (~> 2.4.1)
   coffee-script-source (~> 1.12.2)
   compass-rails (~> 1.1.7)
+  concurrent-ruby (~> 1.1.7)
   cucumber (~> 2.1.0)
   cucumber-rails (~> 1.4.5)
   database_cleaner (~> 1.0.1)

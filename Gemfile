@@ -32,7 +32,6 @@ gem 'kgio', '~> 2.11.3'
 # Error monitoring PRODUCTION
 gem 'honeybadger', '~> 1.16.7'
 
-
 #ckeditor text editing
 gem 'ckeditor_rails', '~> 4.5.11'
 
@@ -102,6 +101,7 @@ gem 'chronic', '~> 0.10.2' # A natural language date parser
 gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
 gem 'bootstrap-multiselect-rails'
 gem 'rack', '~> 1.4.7'
+gem 'concurrent-ruby', '~> 1.1.7'
 
 # Performance
 gem 'unicorn-worker-killer', '~> 0.4.4'
@@ -163,9 +163,7 @@ group :development, :test do
 
   gem 'ruby-debug-ide'
   gem 'debase', '~> 0.2.4'
-
 end
-
 
 group :test do
   # Rspec testing gems
