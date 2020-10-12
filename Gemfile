@@ -57,7 +57,7 @@ group :staging, :production do
   # Firefox/IE11 icons display
   gem 'rack-cors', '~> 1.0.3', :require => 'rack/cors'
   # Heroku API
-  gem 'platform-api', '~> 2.2.0'
+  #gem 'platform-api', '~> 2.2.0'
 end
 
 # Database
