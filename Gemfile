@@ -26,11 +26,11 @@ gem 'gravatar_image_tag', '~> 0.1.0'
 gem 'gravatar-ultimate'
 
 # Unicorn rails
-gem 'unicorn', '~> 5.4.1'
+gem 'unicorn', '~> 5.5.5'
 gem 'kgio', '~> 2.11.3'
 
 # Error monitoring PRODUCTION
-gem 'honeybadger', '~> 1.16.7'
+gem 'honeybadger', '~> 2.7.2'
 
 #ckeditor text editing
 gem 'ckeditor_rails', '~> 4.5.11'
@@ -68,18 +68,18 @@ gem 'pg', '~> 0.21.0'
 gem 'resque', '~> 1.27.4'
 gem 'resque-status', '~> 0.5.0'
 gem 'resque-queue-priority', '~> 0.6.2'
-gem 'redis', '~> 3.3.5'
+gem 'redis', '~> 4.2.5'
 gem 'redis-namespace', '~> 1.6.0'
-gem 'resque-scheduler', '~> 4.3.1', :require => 'resque-scheduler'
+gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 5.7.0.350'
+gem 'newrelic_rpm', '~> 6.7.0.359'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
 # Basic required gems
 gem 'nokogiri', '~> 1.10.8'
-gem 'rubyzip', '~> 1.2.4'
+gem 'rubyzip', '~> 1.3.0'
 gem 'omg_validator', '~> 1.0.0'      # Form validations
 gem 'carmen-rails', '~> 1.0.1' # State country codes
 gem 'will_paginate', '~> 3.0.7'
