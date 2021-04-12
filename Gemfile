@@ -104,6 +104,7 @@ gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
 gem 'bootstrap-multiselect-rails'
 gem 'rack', '~> 1.4.7'
 gem 'concurrent-ruby', '~> 1.1.7'
+gem 'xmlrpc'
 
 # Performance
 gem 'unicorn-worker-killer', '~> 0.4.4'
