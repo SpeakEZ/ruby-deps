@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.8'
+ruby '2.4.6'
 
 gem 'rails', '~> 3.2.22'
 gem 'rake', '~> 11.3.0' # pinned to 11.x for Rails 3
