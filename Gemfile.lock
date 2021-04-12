@@ -297,7 +297,7 @@ GEM
     nokogumbo (1.2.0)
       nokogiri
     oauth (0.4.7)
-    oj (2.12.14)
+    oj (2.18.5)
     omg_validator (1.0.0)
       activemodel
     pg (0.21.0)
@@ -543,7 +543,7 @@ DEPENDENCIES
   newrelic_rpm (~> 6.7.0.359)
   nokogiri (~> 1.10.8)
   oauth
-  oj (~> 2.12.5)
+  oj (~> 2.18.5)
   omg_validator (~> 1.0.0)
   pg (~> 0.21.0)
   power_assert (~> 0.4.1)

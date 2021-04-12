@@ -97,7 +97,7 @@ gem 'sanitize', '~> 3.1.2'
 gem 'github-markdown', '~> 0.6.9'
 gem 'bluecloth'
 gem 'faker', '~> 1.1.2'
-gem 'oj', '~> 2.12.5' # THE fastest JSON parser and Object marshaller, render :json uses multi_json which will default to oj now
+gem 'oj', '~> 2.18.5' # THE fastest JSON parser and Object marshaller, render :json uses multi_json which will default to oj now
 gem 'chronic', '~> 0.10.2' # A natural language date parser
 #gem 'ancestry' # jason put this in for org heirarchy - was buggy
 gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
