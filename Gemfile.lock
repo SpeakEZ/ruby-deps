@@ -111,7 +111,8 @@ GEM
       compass (>= 0.12.2)
       sprockets (<= 2.11.0)
     concurrent-ruby (1.1.7)
-    crack (0.4.4)
+    crack (0.4.5)
+      rexml
     crass (1.0.6)
     cucumber (2.1.0)
       builder (>= 2.1.2)
@@ -369,6 +370,7 @@ GEM
       rufus-scheduler (~> 3.2)
     resque-status (0.5.0)
       resque (~> 1.19)
+    rexml (3.2.5)
     rmagick (2.16.0)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
@@ -462,7 +464,7 @@ GEM
       macaddr (~> 1.0)
     vegas (0.1.11)
       rack (>= 1.0.0)
-    webmock (1.24.6)
+    webmock (2.3.2)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
@@ -585,7 +587,7 @@ DEPENDENCIES
   uglifier (~> 2.7.2)
   unicorn (~> 5.5.5)
   unicorn-worker-killer (~> 0.4.4)
-  webmock (= 1.24.6)
+  webmock (= 2.3.2)
   will_paginate (~> 3.0.7)
   wirble
   xmlrpc

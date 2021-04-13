@@ -179,7 +179,7 @@ group :test do
   gem 'database_cleaner', '~> 1.0.1' # Changed due to a current issue in latest
   gem 'launchy', '~> 2.1.2'
   gem 'capybara-extensions', '~> 0.4.1'
-  gem 'webmock', '1.24.6'
+  gem 'webmock', '2.3.2'
   gem 'power_assert', '~> 0.4.1'
   # SimpleCov code coverage
   gem 'simplecov', '~> 0.16.1', require: false
