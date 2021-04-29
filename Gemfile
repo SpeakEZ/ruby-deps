@@ -9,7 +9,7 @@ gem 'rake', '~> 11.3.0' # pinned to 11.x for Rails 3
 
 # Please add test-unit gem to your Gemfile: `gem 'test-unit', '~> 3.0'`
 # (cannot load such file -- test/unit/testcase) (LoadError)
-gem 'test-unit', '~> 3.3'
+gem 'test-unit', '~> 3.4'
 
 # Jquery/javascript gems
 gem 'json', '~> 1.8.6'
@@ -26,11 +26,11 @@ gem 'gravatar_image_tag', '~> 0.1.0'
 gem 'gravatar-ultimate'
 
 # Unicorn rails
-gem 'unicorn', '~> 5.5.5'
+gem 'unicorn', '~> 5.8.0'
 gem 'kgio', '~> 2.11.3'
 
-# Error monitoring PRODUCTION
-gem 'honeybadger', '~> 2.7.2'
+# Error monitoring
+gem 'honeybadger', '~> 3.3.1'
 
 #ckeditor text editing
 gem 'ckeditor_rails', '~> 4.5.11'
@@ -45,7 +45,7 @@ gem 'oauth'
 # Create cloud based file uploads
 gem 'carrierwave', '~> 0.11.0' # pinned to 0.x for Rails 3
 gem 'fog-aws', '~> 3.4.0'
-gem 'rmagick', '~> 2.16.0'
+gem 'rmagick', '~> 3.2.0'
 
 # File management for S3
 gem 'aws-sdk', '~> 1.67.0'
@@ -61,7 +61,7 @@ group :staging, :production do
 end
 
 # Database
-gem 'pg', '~> 0.21.0'
+gem 'pg', '~> 1.1.4'
 #gem 'mysql2' # This is only for import from zeus
 
 # Background jobs
@@ -69,11 +69,11 @@ gem 'resque', '~> 1.27.4'
 gem 'resque-status', '~> 0.5.0'
 gem 'resque-queue-priority', '~> 0.6.2'
 gem 'redis', '~> 4.2.5'
-gem 'redis-namespace', '~> 1.6.0'
+gem 'redis-namespace', '~> 1.7.0'
 gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 6.7.0.359'
+gem 'newrelic_rpm', '~> 6.10.0.364'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
@@ -103,11 +103,11 @@ gem 'chronic', '~> 0.10.2' # A natural language date parser
 gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
 gem 'bootstrap-multiselect-rails'
 gem 'rack', '~> 1.4.7'
-gem 'concurrent-ruby', '~> 1.1.7'
+gem 'concurrent-ruby', '~> 1.1.8'
 gem 'xmlrpc'
 
 # Performance
-gem 'unicorn-worker-killer', '~> 0.4.4'
+gem 'unicorn-worker-killer', '~> 0.4.5'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.6'
