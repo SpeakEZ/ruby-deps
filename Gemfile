@@ -73,12 +73,12 @@ gem 'redis-namespace', '~> 1.7.0'
 gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 6.10.0.364'
+gem 'newrelic_rpm', '~> 6.13.1'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
 # Basic required gems
-gem 'nokogiri', '~> 1.10.8'
+gem 'nokogiri', '~> 1.11.4'
 gem 'rubyzip', '~> 1.3.0'
 gem 'omg_validator', '~> 1.0.0'      # Form validations
 gem 'carmen-rails', '~> 1.0.1' # State country codes
@@ -103,7 +103,7 @@ gem 'chronic', '~> 0.10.2' # A natural language date parser
 gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
 gem 'bootstrap-multiselect-rails'
 gem 'rack', '~> 1.4.7'
-gem 'concurrent-ruby', '~> 1.1.8'
+gem 'concurrent-ruby', '~> 1.1.9'
 gem 'xmlrpc'
 
 # Performance
