@@ -280,9 +280,6 @@ GEM
       uuid
     mil_friendly_id (4.0.9.9)
       acts_as_paranoid (= 0.4.1)
-    mil_vestal_versions (1.2.6)
-      activerecord (~> 3.0)
-      activesupport (~> 3.0)
     mime-types (1.25.1)
     mimemagic (0.4.3)
       nokogiri (~> 1)
@@ -464,6 +461,9 @@ GEM
       macaddr (~> 1.0)
     vegas (0.1.11)
       rack (>= 1.0.0)
+    vestal_versions (2.0.0)
+      activerecord (>= 3, < 5)
+      activesupport (>= 3, < 5)
     webmock (2.3.2)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
@@ -542,7 +542,6 @@ DEPENDENCIES
   meta_request (~> 0.2.9)
   mil-ims-lti (~> 1.2.2)
   mil_friendly_id (= 4.0.9.9)
-  mil_vestal_versions (= 1.2.6)
   newrelic_rpm (~> 6.10.0.364)
   nokogiri (~> 1.10.8)
   oauth
@@ -587,6 +586,7 @@ DEPENDENCIES
   uglifier (~> 2.7.2)
   unicorn (~> 5.8.0)
   unicorn-worker-killer (~> 0.4.5)
+  vestal_versions (~> 2.0.0)
   webmock (= 2.3.2)
   will_paginate (~> 3.0.7)
   wirble

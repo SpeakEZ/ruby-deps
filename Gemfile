@@ -89,7 +89,7 @@ gem 'bcrypt-ruby', '~> 3.0.1' # Pinned to 3.0.x for Rails 3.
 gem 'font-awesome-rails', '~> 3.2.1.2'
 gem 'acts_as_list', '~> 0.4.0'
 gem 'mil_friendly_id',     '4.0.9.9'  # has special character support
-gem 'mil_vestal_versions', '1.2.6'    # whitelist support for versions
+gem 'vestal_versions', '~> 2.0.0'     # whitelist support for versions
 gem 'holidays', '~> 2.2.0'            # Determines holidays for common US holidays
 gem 'mailboxer', '~> 0.10.3'
 gem 'html-pipeline', '~> 2.6.0'
