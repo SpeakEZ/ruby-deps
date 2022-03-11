@@ -85,7 +85,7 @@ gem 'carmen-rails', '~> 1.0.1' # State country codes
 gem 'will_paginate', '~> 3.0.7'
 gem 'read_only_filter', '~> 1.0.0'
 gem 'bootstrap-will_paginate', '0.0.10'
-gem 'bcrypt-ruby', '~> 3.0.1' # Pinned to 3.0.x for Rails 3.
+gem 'bcrypt-ruby', '~> 3.1.5' # Was pinned to 3.0.x for Rails 3 community edition.
 gem 'font-awesome-rails', '~> 3.2.1.2'
 gem 'acts_as_list', '~> 0.4.0'
 gem 'mil_friendly_id',     '4.0.9.9'  # has special character support
