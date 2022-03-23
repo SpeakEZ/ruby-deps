@@ -150,7 +150,7 @@ group :development, :test do
   gem 'rb-fsevent', '~> 0.9.1'
 
   # Misc development/test gems
-  gem 'sqlite3', '~> 1.3.13'
+  gem 'sqlite3', '~> 1.4.2'
   gem 'wirble'
   gem 'awesome_print', '~> 1.6.1'
   gem 'annotate', '~> 2.5.0'
