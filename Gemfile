@@ -78,7 +78,7 @@ gem 'newrelic_rpm', '~> 6.13.1'
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
 # Basic required gems
-gem 'nokogiri', '~> 1.12.5'
+gem 'nokogiri', '~> 1.13.4'
 gem 'rubyzip', '~> 1.3.0'
 gem 'omg_validator', '~> 1.0.0'      # Form validations
 gem 'carmen-rails', '~> 1.0.1' # State country codes
