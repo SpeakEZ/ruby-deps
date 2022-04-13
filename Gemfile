@@ -30,7 +30,7 @@ gem 'unicorn', '~> 5.8.0'
 gem 'kgio', '~> 2.11.3'
 
 # Error monitoring
-gem 'honeybadger', '~> 3.3.1'
+gem 'honeybadger', '~> 4.7.3'
 
 #ckeditor text editing
 gem 'ckeditor_rails', '~> 4.5.11'
