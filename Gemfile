@@ -85,7 +85,8 @@ gem 'carmen-rails', '~> 1.0.1' # State country codes
 gem 'will_paginate', '~> 3.0.7'
 gem 'read_only_filter', '~> 1.0.0'
 gem 'bootstrap-will_paginate', '0.0.10'
-gem 'bcrypt-ruby', '~> 3.1.5' # Was pinned to 3.0.x for Rails 3 community edition.
+gem 'bcrypt-ruby', '~> 3.1.5' # Was 3.0 for Rails 3 community edition, but can be 3.1 in RailsLTS
+gem 'bcrypt', '~> 3.1.17'
 gem 'font-awesome-rails', '~> 3.2.1.2'
 gem 'acts_as_list', '~> 0.4.0'
 gem 'mil_friendly_id',     '4.0.9.9'  # has special character support
@@ -103,7 +104,7 @@ gem 'chronic', '~> 0.10.2' # A natural language date parser
 gem 'spreadsheet', '~> 1.0.9' # Used to read .xls files
 gem 'bootstrap-multiselect-rails'
 gem 'rack', '~> 1.4.7'
-gem 'concurrent-ruby', '~> 1.1.9'
+gem 'concurrent-ruby', '~> 1.1.10'
 gem 'xmlrpc'
 
 # Performance
