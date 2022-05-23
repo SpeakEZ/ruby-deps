@@ -61,7 +61,7 @@ group :staging, :production do
 end
 
 # Database
-gem 'pg', '~> 1.1.4'
+gem 'pg', '~> 1.2.3'
 #gem 'mysql2' # This is only for import from zeus
 
 # Background jobs
@@ -73,12 +73,12 @@ gem 'redis-namespace', '~> 1.7.0'
 gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 6.13.1'
+gem 'newrelic_rpm', '~> 6.15'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
 # Basic required gems
-gem 'nokogiri', '~> 1.13.4'
+gem 'nokogiri', '~> 1.13.6'
 gem 'rubyzip', '~> 1.3.0'
 gem 'omg_validator', '~> 1.0.0'      # Form validations
 gem 'carmen-rails', '~> 1.0.1' # State country codes
@@ -86,7 +86,7 @@ gem 'will_paginate', '~> 3.0.7'
 gem 'read_only_filter', '~> 1.0.0'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bcrypt-ruby', '~> 3.1.5' # Was 3.0 for Rails 3 community edition, but can be 3.1 in RailsLTS
-gem 'bcrypt', '~> 3.1.17'
+gem 'bcrypt', '~> 3.1.18'
 gem 'font-awesome-rails', '~> 3.2.1.2'
 gem 'acts_as_list', '~> 0.4.0'
 gem 'mil_friendly_id',     '4.0.9.9'  # has special character support
