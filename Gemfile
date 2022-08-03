@@ -44,7 +44,7 @@ gem 'oauth'
 
 # Create cloud based file uploads
 gem 'carrierwave', '~> 0.11.0' # pinned to 0.x for Rails 3
-gem 'fog-aws', '~> 3.4.0'
+gem 'fog-aws', '~> 3.6.7'
 gem 'rmagick', '~> 3.2.0'
 
 # File management for S3
