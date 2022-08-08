@@ -26,11 +26,11 @@ gem 'gravatar_image_tag', '~> 0.1.0'
 gem 'gravatar-ultimate'
 
 # Unicorn rails
-gem 'unicorn', '~> 5.8.0'
+gem 'unicorn', '~> 6.1.0'
 gem 'kgio', '~> 2.11.3'
 
 # Error monitoring
-gem 'honeybadger', '~> 4.7.3'
+gem 'honeybadger', '~> 4.12.1'
 
 #ckeditor text editing
 gem 'ckeditor_rails', '~> 4.5.11'
@@ -73,7 +73,7 @@ gem 'redis-namespace', '~> 1.7.0'
 gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 6.15'
+gem 'newrelic_rpm', '~> 8.9.0'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
