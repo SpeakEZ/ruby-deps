@@ -138,7 +138,7 @@ group :development, :test do
   gem 'pry', '~> 0.12.2'
   gem 'guard-rails', '~> 0.6.1'
   gem 'guard-rspec', '~> 4.6.5'
-  gem 'guard-bundler', '~> 2.1.0'
+  gem 'guard-bundler', '~> 2.2.1'
   gem 'guard-cucumber', '~> 2.1.2'
   gem 'guard-coffeescript', '~> 2.0.1'
   gem 'guard-spork', '~> 2.1.0'
