@@ -12,7 +12,7 @@ gem 'rake', '~> 11.3.0' # pinned to 11.x for Rails 3
 gem 'test-unit', '~> 3.4'
 
 # Jquery/javascript gems
-gem 'json', '~> 1.8.6'
+gem 'json', '~> 2.1.0'
 gem 'rails3-jquery-autocomplete', '~> 1.0.15'
 gem 'browser', '0.1.6'
 gem 'spinjs-rails', '~> 1.4' # Spinner
