@@ -294,7 +294,7 @@ GEM
     multi_test (1.1.0)
     nenv (0.3.0)
     newrelic_rpm (8.9.0)
-    nokogiri (1.13.8)
+    nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nokogumbo (1.2.0)
@@ -549,7 +549,7 @@ DEPENDENCIES
   mil-ims-lti (~> 1.2.2)
   mil_friendly_id (= 4.0.9.9)
   newrelic_rpm (~> 8.9.0)
-  nokogiri (~> 1.13.6)
+  nokogiri (~> 1.13.10)
   oauth
   oj (~> 2.18.5)
   omg_validator (~> 1.0.0)
