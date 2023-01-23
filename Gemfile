@@ -123,11 +123,6 @@ group :assets do
 end
 
 group :development do
-  # Errors
-  gem 'better_errors', '~> 1.1.0'
-  gem 'binding_of_caller', '~> 0.7.3'
-  gem 'meta_request', '~> 0.2.9'
-
   gem 'spring', '~> 1.7.2'
   gem 'spring-commands-rspec'
   gem 'spring-commands-cucumber'
