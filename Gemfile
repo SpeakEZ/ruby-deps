@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.7.6'
 
 gem 'rails', '~> 3.2.22'
-gem 'rake', '~> 11.3.0' # pinned to 11.x for Rails 3
+gem 'rake', '~> 12.3.3' # seems to work for rails 3...
 
 # Heroku rails console complains:
 
