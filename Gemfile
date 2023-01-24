@@ -133,7 +133,6 @@ group :development, :test do
   gem 'guard', '~> 2.10.5'
   gem 'pry', '~> 0.12.2'
   gem 'guard-rails', '~> 0.6.1'
-  gem 'guard-rspec', '~> 4.6.5'
   gem 'guard-bundler', '~> 2.2.1'
   gem 'guard-cucumber', '~> 2.1.2'
   gem 'guard-coffeescript', '~> 2.0.1'
@@ -166,7 +165,8 @@ end
 
 group :test do
   # Rspec testing gems
-  gem 'rspec-rails', '~> 2.99.0'
+  gem 'rspec-rails', '~> 3.4.2'
+  gem 'rspec-its'
   gem 'rspec_junit_formatter'
   gem 'capybara', '~> 2.4.4'
   gem 'factory_girl_rails', '~> 4.4.0'
