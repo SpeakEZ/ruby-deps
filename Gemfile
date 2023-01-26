@@ -167,6 +167,7 @@ group :test do
   # Rspec testing gems
   gem 'rspec-rails', '~> 3.4.2'
   gem 'rspec-its'
+  gem 'rspec-activemodel-mocks'
   gem 'rspec_junit_formatter'
   gem 'capybara', '~> 2.4.4'
   gem 'factory_girl_rails', '~> 4.4.0'
