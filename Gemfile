@@ -73,7 +73,8 @@ gem 'redis-namespace', '~> 1.7.0'
 gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
-gem 'newrelic_rpm', '~> 8.9.0'
+#gem 'newrelic_rpm', '~> 8.9.0'
+gem 'newrelic_rpm', '~> 8.15.0'
 
 gem 'acts_as_paranoid', '0.4.1' # pinned by mil_friendly_id
 
