@@ -39,7 +39,7 @@ gem 'ckeditor_rails', '~> 4.5.11'
 gem 'zencoder', '2.5.1'
 
 # LTI oauth gems
-gem 'mil-ims-lti', '~> 1.2.2'
+gem 'ims-lti', '~> 1.1.4'
 gem 'oauth'
 
 # Create cloud based file uploads
