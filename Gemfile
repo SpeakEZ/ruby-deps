@@ -95,7 +95,7 @@ gem 'vestal_versions', '~> 2.0.0'     # whitelist support for versions
 gem 'holidays', '~> 2.2.0'            # Determines holidays for common US holidays
 gem 'mailboxer', '~> 0.10.3'
 gem 'html-pipeline', '~> 2.6.0'
-gem 'sanitize', '~> 3.1.2'
+gem 'sanitize', '~> 4.4.0'
 gem 'github-markdown', '~> 0.6.9'
 gem 'bluecloth'
 gem 'faker', '~> 1.1.2'
