@@ -12,7 +12,7 @@ gem 'rake', '~> 12.3.3' # seems to work for rails 3...
 gem 'test-unit', '~> 3.4'
 
 # Jquery/javascript gems
-gem 'json', '~> 2.1.0'
+gem 'json', '~> 2.3.1'
 gem 'rails3-jquery-autocomplete', '~> 1.0.15'
 gem 'browser', '0.1.6'
 gem 'spinjs-rails', '~> 1.4' # Spinner
