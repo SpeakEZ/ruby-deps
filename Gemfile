@@ -61,7 +61,7 @@ group :staging, :production do
 end
 
 # Database
-gem 'pg', '~> 1.2.3'
+gem 'pg', '~> 1.4.5'
 #gem 'mysql2' # This is only for import from zeus
 
 # Background jobs

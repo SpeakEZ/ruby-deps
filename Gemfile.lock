@@ -292,7 +292,7 @@ GEM
     oj (2.18.5)
     omg_validator (1.0.0)
       activemodel
-    pg (1.2.3)
+    pg (1.4.5)
     phantomjs (2.1.1.0)
     polyglot (0.3.5)
     power_assert (0.4.1)
@@ -541,7 +541,7 @@ DEPENDENCIES
   oauth
   oj (~> 2.18.5)
   omg_validator (~> 1.0.0)
-  pg (~> 1.2.3)
+  pg (~> 1.4.5)
   power_assert (~> 0.4.1)
   pry (~> 0.12.2)
   rack (~> 1.4.7)
