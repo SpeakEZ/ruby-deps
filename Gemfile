@@ -48,7 +48,7 @@ gem 'fog-aws', '~> 3.6.7'
 gem 'rmagick', '~> 3.2.0'
 
 # File management for S3
-gem 'aws-sdk', '~> 2.8.14'
+gem 'aws-sdk', '~> 3.1.0'
 
 group :staging, :production do
   gem 'rails_12factor'
