@@ -174,7 +174,7 @@ group :test do
   gem 'capybara', '~> 2.4.4'
   gem 'factory_girl_rails', '~> 4.4.0'
   gem 'cucumber-rails', '~> 1.4.5', :require => false
-  gem 'cucumber', '~> 2.1.0'
+  gem 'cucumber', '~> 2.99.0'
   gem 'database_cleaner', '~> 1.0.1' # Changed due to a current issue in latest
   gem 'launchy', '~> 2.1.2'
   gem 'capybara-extensions', '~> 0.4.1'
