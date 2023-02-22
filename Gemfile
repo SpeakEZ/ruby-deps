@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.6'
+ruby '2.7.7'
 
 gem 'rails', '~> 3.2.22'
 gem 'rake', '~> 12.3.3' # seems to work for rails 3...
