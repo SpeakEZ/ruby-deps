@@ -88,6 +88,7 @@ gem 'read_only_filter', '~> 1.0.0'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bcrypt-ruby', '~> 3.1.5' # Was 3.0 for Rails 3 community edition, but can be 3.1 in RailsLTS
 gem 'bcrypt', '~> 3.1.18'
+gem 'cgi', '~> 0.3.6' # CVE-2021-33621
 gem 'font-awesome-rails', '~> 3.2.1.2'
 gem 'acts_as_list', '~> 0.4.0'
 gem 'mil_friendly_id',     '4.0.9.9'  # has special character support
