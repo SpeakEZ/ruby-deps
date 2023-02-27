@@ -68,9 +68,9 @@ gem 'pg', '~> 1.4.5'
 gem 'resque', '~> 1.27.4'
 gem 'resque-status', '~> 0.5.0'
 gem 'resque-queue-priority', '~> 0.6.2'
-gem 'redis', '~> 4.2.5'
-gem 'redis-namespace', '~> 1.7.0'
-gem 'resque-scheduler', '~> 4.4.0', :require => 'resque-scheduler'
+gem 'redis', '~> 4.5.1'
+gem 'redis-namespace', '~> 1.8.2'
+gem 'resque-scheduler', '~> 4.6.0', :require => 'resque-scheduler'
 
 # Statistics/monitoring
 #gem 'newrelic_rpm', '~> 8.9.0'
